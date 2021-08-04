@@ -1,0 +1,10 @@
+1.  10 Ways to control your PTZ camera 
+     https://www.youtube.com/watch?v=NtSgUpQ2iVM&t
+2.  Computer Programming for Robotics - Python Camera Control
+     https://www.youtube.com/watch?v=rYOjXxW_2DI&t
+3.  Object Detection OpenCV Python | Easy and Fast (2020)
+     https://www.youtube.com/watch?v=HXDD7-EnGBY
+     -code( detect airplanes & birds from web camera, using opencv cv2)
+     https://github.com/ABproductionIT/ObjectDetection
+     -rus info ( detection from img & video)
+     https://www.youtube.com/watch?v=Uj4O2_dwRiA

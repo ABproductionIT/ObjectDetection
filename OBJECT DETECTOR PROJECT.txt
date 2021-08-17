@@ -1,3 +1,4 @@
+VIDEO https://drive.google.com/file/d/1rf-qg6h22X2raw23dej57W8F1zwsF9Hx/view
 1.  10 Ways to control your PTZ camera 
      https://www.youtube.com/watch?v=NtSgUpQ2iVM&t
 2.  Computer Programming for Robotics - Python Camera Control

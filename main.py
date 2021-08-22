@@ -14,7 +14,7 @@ configPath = 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
 weightsPath = 'frozen_inference_graph.pb'
 
 net = cv2.dnn_DetectionModel(weightsPath, configPath)
-net.setInputSize(320, 320)
+net.setInputSize(320, 480)
 net.setInputScale(1.0 / 127.5)
 net.setInputMean((127.5, 127.5, 127.5))
 net.setInputSwapRB(True)
@@ -22,7 +22,7 @@ net.setInputSwapRB(True)
 
 while True:
     success, img = cap.read()
-    classIds, confs, bbox = net.detect(img, confThreshold=0.25)
+    classIds, confs, bbox = net.detect(img, confThreshold=0.45)
     print(classIds, bbox)
 
     if len(classIds) != 0:
